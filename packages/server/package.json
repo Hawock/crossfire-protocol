@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "sim-core": "workspace:*",
+    "ws": "^8.17.0"
+  }
+}

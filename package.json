@@ -1,7 +1,22 @@
 {
-  "name": "CrossfireProtocol",
-  "uuid": "9252b6ea-370d-4855-948b-31d01ac86f4b",
-  "creator": {
-    "version": "3.8.7"
+  "name": "crossfire-proocol",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Crossfire Protocol is a base-building RTS where players wage war on islands with missiles, squads, and strategic resource management.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hawock/crossfire-protocol.git"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "author": "Hawock YKJ Interacive",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hawock/crossfire-protocol/issues"
+  },
+  "homepage": "https://github.com/Hawock/crossfire-protocol#readme",
+  "devDependencies": {
+    "typescript": "^5.9.2"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "name": "CrossfireProtocol",
+  "uuid": "9252b6ea-370d-4855-948b-31d01ac86f4b",
+  "creator": {
+    "version": "3.8.7"
+  },
+  "dependencies": {
+    "sim-core": "workspace:*"
+  }
+}
