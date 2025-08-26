@@ -8,6 +8,7 @@
     "dev": "ts-node src/index.ts"
   },
   "dependencies": {
+    "i18next": "^25.4.2",
     "sim-core": "workspace:*",
     "ws": "^8.17.0"
   }

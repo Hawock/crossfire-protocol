@@ -7,6 +7,13 @@
     "type": "git",
     "url": "git+https://github.com/Hawock/crossfire-protocol.git"
   },
+  "scripts": {
+    "build-core": "pnpm -F sim-core build",
+    "watch-core": "pnpm -F sim-core watch",
+    "clean-core": "pnpm -F sim-core clean",
+    "build-all": "pnpm -r build",
+    "clean-all": "pnpm -r exec rimraf dist"
+  },
   "workspaces": [
     "packages/*"
   ],

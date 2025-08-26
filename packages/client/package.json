@@ -5,6 +5,7 @@
     "version": "3.8.7"
   },
   "dependencies": {
+    "i18next": "^25.4.2",
     "sim-core": "workspace:*"
   }
 }

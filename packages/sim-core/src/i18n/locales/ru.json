@@ -1,0 +1,19 @@
+{
+  "buildings": {
+    "HQ": "Штаб",
+    "MISSILE_LAUNCHER": "Ракетная установка",
+    "AA": "ПВО",
+    "ANTI_PERSONNEL_WEAPONS": "Турель «Гатлинг»",
+    "RADAR": "Радар",
+    "MINEFIELD": "Минное поле",
+    "MINE": "Шахта",
+    "POWER_PLANT": "Электростанция",
+    "MARINE_CORPS": "Корпус морпехов",
+    "NUCLEAR_SILO": "Ядерная шахта"
+  },
+  "ui": {
+    "price": "Цена",
+    "ok": "Ок",
+    "cancel": "Отмена"
+  }
+}

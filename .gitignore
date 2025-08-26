@@ -1,0 +1,37 @@
+# Node / pnpm
+node_modules/
+.pnpm-store/
+dist/
+temp/
+library/
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Editor / IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Cocos Creator
+local/
+build/
+profile.json
+settings/
+
+# OS
+ehthumbs.db
+desktop.ini
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Coverage / tests
+coverage/
