@@ -96,10 +96,7 @@ export class CameraController extends Component {
     // 4) Delta (не отрицательная) + padding
     this._dx = Math.max(0, (mapW - viewW) * 0.5 - this.padding);
     this._dy = Math.max(0, (mapH - viewH) * 0.5 - this.padding);
-
-    // Для контроля можно раскомментировать:
-    // console.log('[Camera] map=', mapW, mapH, 'view=', viewW, viewH, 'center=', this._cx, this._cy, 'delta=', this._dx, this._dy);
-  };
+  }
 
   update(dt: number) {
     let ix = 0, iy = 0;

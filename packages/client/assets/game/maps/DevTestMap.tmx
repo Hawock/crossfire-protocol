@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="isometric" renderorder="right-down" width="10" height="10" tilewidth="128" tileheight="64" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" source="Basic_ground_map.tsx"/>
+ <layer id="1" name="Ground" width="10" height="10">
+  <data encoding="csv">
+67,67,67,67,67,67,67,67,67,67,
+67,67,76,76,76,76,76,76,67,67,
+67,67,76,67,76,76,67,76,67,67,
+67,67,76,76,76,76,76,76,67,67,
+67,67,67,67,67,67,67,67,67,67,
+67,67,67,67,67,67,67,67,67,67,
+67,67,60,60,60,60,60,60,67,67,
+67,67,60,60,60,60,60,60,67,67,
+67,67,60,60,60,60,60,60,67,67,
+67,67,67,67,67,67,67,67,67,67
+</data>
+ </layer>
+</map>

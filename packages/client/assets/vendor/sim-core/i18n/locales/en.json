@@ -1,0 +1,19 @@
+{
+  "buildings": {
+    "HQ": "Headquarters",
+    "MISSILE_LAUNCHER": "Missile Launcher",
+    "AA": "Anti-Air",
+    "ANTI_PERSONNEL_WEAPONS": "Gatling Turret",
+    "RADAR": "Radar",
+    "MINEFIELD": "Minefield",
+    "MINE": "Mine",
+    "POWER_PLANT": "Power Plant",
+    "MARINE_CORPS": "Marine Corps",
+    "NUCLEAR_SILO": "Nuclear Silo"
+  },
+  "ui": {
+    "price": "Price",
+    "ok": "OK",
+    "cancel": "Cancel"
+  }
+}

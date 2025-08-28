@@ -1,19 +1,11 @@
 {
-  /* Base configuration. Do not edit this field. */
   "extends": "./temp/tsconfig.cocos.json",
-  /* Add your custom configuration here. */
-  "paths": {
-      "@/*": ["./assets/*"],
-      //? 👇 пока непонятно нужно ли дублировать пути из ./temp/tsconfig.cocos.json 
-      "db://internal/*": [
-        "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.7\\resources\\resources\\3d\\engine\\editor\\assets\\*"
-      ],
-      "db://assets/*": ["./assets/*"]
-    },
   "compilerOptions": {
     "baseUrl": ".",
+    // чтобы тянуть JSON из sim-core
     "resolveJsonModule": true,
     "esModuleInterop": true,
+
     "skipLibCheck": true,
     "strict": false
   }

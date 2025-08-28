@@ -11,8 +11,10 @@
     "build-core": "pnpm -F sim-core build",
     "watch-core": "pnpm -F sim-core watch",
     "clean-core": "pnpm -F sim-core clean",
-    "build-all": "pnpm -r build",
-    "clean-all": "pnpm -r exec rimraf dist"
+    "make-tree": "node ./make-tree.js",
+    "dev": "pnpm -r --parallel watch",
+    "sync-core": "chokidar \"packages/sim-core/src/**/*\" -c \"pnpm copy-core\"",
+    "copy-core": "powershell -NoProfile -Command \"robocopy packages/sim-core/src packages/client/assets/vendor/sim-core /MIR /E /NFL /NDL /NJH /NJS /NP | Out-Null; exit 0\""
   },
   "workspaces": [
     "packages/*"
@@ -24,6 +26,7 @@
   },
   "homepage": "https://github.com/Hawock/crossfire-protocol#readme",
   "devDependencies": {
+    "chokidar-cli": "^3.0.0",
     "typescript": "^5.9.2"
   }
 }

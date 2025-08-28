@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "CommonJS",
+    "target": "ES2019",
+    "module": "ESNext",
+    "moduleResolution": "Node",
     "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
+    "baseUrl": ".",
     "resolveJsonModule": true,
-    "forceConsistentCasingInFileNames": true,
-    "allowSyntheticDefaultImports": true
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true
   }
 }
